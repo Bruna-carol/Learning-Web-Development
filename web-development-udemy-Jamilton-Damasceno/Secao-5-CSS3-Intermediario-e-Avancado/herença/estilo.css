@@ -1,0 +1,16 @@
+/****** herança e especifidade */
+* {
+    color:aquamarine;
+}
+
+h2 {
+    color:brown; /* por último */
+}
+
+h2.verde {
+    color: green; /*** segundo a class */
+}
+
+h2#amarelo {
+    color: yellow; /*** o id será aplicado primeiro por ser mais específico */
+}

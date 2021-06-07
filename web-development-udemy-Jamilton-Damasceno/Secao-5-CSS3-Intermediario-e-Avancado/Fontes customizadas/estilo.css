@@ -1,0 +1,22 @@
+
+@font-face {
+    font-family: "Old London";
+    src: url("OldLondon.woff");
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: 6em;
+    font-family: "Old London";
+}
+
+
+@font-face {
+    font-family: Medium;
+    src: url("Ancient-Medium.woff");
+}
+
+p {
+    font-size: 4em;
+    font-family: Medium;
+}

@@ -1,0 +1,36 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+h2 {
+    text-align: center;
+}
+
+table {
+    width: 75%;
+    margin: auto;
+    border-collapse: collapse;/*separate*/ 
+}
+th, td {
+    padding: 10px;
+}
+
+th {
+    text-transform: uppercase;
+    border-top: 1px solid #999;
+    border-bottom: 1px solid #111;
+    text-align: left;
+    font-size: 90%;
+    letter-spacing: 0.1em; /* espaço entre as letras*/
+}
+
+tr.alternado {
+    background-color: #efefef;
+}
+
+.numero {
+    text-align: right;
+}
+
+tr:hover {
+    background: skyblue;
+}

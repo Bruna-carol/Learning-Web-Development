@@ -1,0 +1,34 @@
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+ul a {
+    border: 1px solid red;
+    width: 200px;
+    height: 40px;
+    display: block;
+    color: black;
+    text-indent: 40px;
+    text-decoration: none;
+    line-height: 40px;
+    background: #f7b600 url(imagens/menu.png);
+
+}
+
+a:hover {
+    background-position: right bottom;
+    background-color: orange;
+    color: whitesmoke;
+
+}
+
+#home #navegação .home a,
+#sobre #navegação .sobre a,
+#serviços #navegação .serviços a {
+    background-position: right bottom;
+    background-color: orange;
+    color: whitesmoke;
+
+}
